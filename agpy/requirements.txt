@@ -1,0 +1,25 @@
+autogen
+autogen-agentchat
+autogen-ext[openai,azure, chromadb, docker]
+ipykernel
+python-dotenv
+openai
+
+fastapi
+uvicorn
+aiohttp
+
+streamlit
+
+chromadb
+
+mcp
+mcp[cli]
+httpx
+
+autogen-ext[mcp]
+
+docker
+autogen-ext[docker]
+
+azure.identity

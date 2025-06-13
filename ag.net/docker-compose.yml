@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  agenticai:
+    build: .
+    image: agenticai:latest
+    environment:
+      - AZUREOPENAI_API_KEY=${AZUREOPENAI_API_KEY}
+    volumes:
+      - ./appsettings.json:/app/appsettings.json:ro
+    stdin_open: true
+    tty: true
